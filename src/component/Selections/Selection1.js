@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Stepper from "../Stepper/Stepper";
 import { Link, useNavigate } from "react-router-dom";
+import Header from "../Header";
 
 const Step1 = () => {
   const [active, setActive] = useState(0);
@@ -25,6 +26,7 @@ const Step1 = () => {
 
   return (
     <div className="step1_root">
+      <Header></Header>
       <div className="row">
         <div className="col-10">
           <h1>Your Ad Campaign</h1>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import moment from "moment";
+import Header from "./Header";
 
 const API = 'https://zocketbackend.herokuapp.com'
 
@@ -61,6 +62,7 @@ const Campaign = () => {
 
   return (
     <div className="campaign_root">
+      <Header></Header>
       <div className="row">
         <div className="col-8">
           <h1>Your Campigns</h1>

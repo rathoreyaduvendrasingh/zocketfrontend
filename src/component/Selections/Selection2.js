@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import Header from "../Header";
 import Stepper from "../Stepper/Stepper";
 
 const API = 'https://zocketbackend.herokuapp.com'
@@ -40,6 +41,7 @@ const Step2 = () => {
   let navigate = useNavigate();
   return (
     <div className="step1_root">
+      <Header></Header>
       <div className="row">
         <div className="col-10">
           <h1>Your Ad Campaign</h1>

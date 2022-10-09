@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Header from "../Header";
 import Stepper from "../Stepper/Stepper";
 
 const API = 'https://zocketbackend.herokuapp.com'
@@ -75,6 +76,7 @@ const Step4 = () => {
 
   return (
     <div className="step1_root">
+      <Header></Header>
       <div className="row">
         <div className="col-10">
           <h1>Your Ad Campaign</h1>
@@ -106,7 +108,7 @@ const Step4 = () => {
                 <img src="./images/sample_2.png" alt="" />
               </div>
               <div className="col-10">
-                <h2>Nimish Cake shop</h2>
+                <h2>Mukund cake shop</h2>
                 <h6>Sponsored</h6>
               </div>
             </div>
@@ -129,7 +131,7 @@ const Step4 = () => {
                 <img src="./images/sample_2.png" alt="" />
               </div>
               <div className="col-10">
-                <h2>Nimish Cake shop</h2>
+                <h2>Mukund cake shop</h2>
                 <h6>Sponsored</h6>
               </div>
             </div>
@@ -152,7 +154,7 @@ const Step4 = () => {
                 <img src="./images/sample_2.png" alt="" />
               </div>
               <div className="col-10">
-                <h2>Nimish Cake shop</h2>
+                <h2>Mukund cake shop</h2>
                 <h6>Sponsored</h6>
               </div>
             </div>
@@ -175,7 +177,7 @@ const Step4 = () => {
                 <img src="./images/sample_2.png" alt="" />
               </div>
               <div className="col-10">
-                <h2>Nimish Cake shop</h2>
+                <h2>Mukund cake shop</h2>
                 <h6>Sponsored</h6>
               </div>
             </div>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import Header from "../Header";
 import Stepper from "../Stepper/Stepper";
 
 const Step3 = () => {
@@ -24,6 +25,7 @@ const Step3 = () => {
 
   return (
     <div className="step1_root">
+      <Header></Header>
       <div className="row">
         <div className="col-10">
           <h1>Your Ad Campaign</h1>
